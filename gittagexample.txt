@@ -1,0 +1,5 @@
+git commit -m "your message"
+git tag -a "v0.0.1" -m "your tag message"
+git push --follow-tags 
+
+# The new "--follow-tags" option tells "git push" to push relevant annotated tags when pushing branches out.
